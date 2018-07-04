@@ -23,7 +23,11 @@ nav {
 }
 #fLeft {
   float: left;
-  font-size: 100%;
+  font-size: 16px;
+}
+#float {
+  float: left;
+  font-size: 16px;
 }
 li .hover {
   display: block;
@@ -103,3 +107,59 @@ li .hover {
 	width: 99%;
 	margin-top: 46px;
 }
+#nav {
+	text-decoration: none;
+	color: white;
+  display: none;
+  text-align: center;
+	padding: 7px;
+	font-size: 130%;
+	cursor: pointer;
+}
+.mobilenav {
+  height: 40%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 42px;
+  left: 0;
+  background: linear-gradient(to bottom, #56D9E8, #0E2124);
+  overflow-x: hidden;
+  transition: 0.5s;
+	padding-top: 8px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.mobilenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+.mobilenav .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-width:600px) {
+	nav {
+			background: linear-gradient(to bottom, #0E2124, #56D9E8);
+			display: block;
+			animation-iteration-count: 0;
+	}
+	#fLeft {
+		display: none;
+	}
+	#nav {
+		display: block;
+	}
+	#title {
+		margin-top: 54px;
+	}
+}
+
+	

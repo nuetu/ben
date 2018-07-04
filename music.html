@@ -5,8 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="Ben Keil">
 <meta name="description" content="All about Ben Keil">
-<script src="jquery-3.3.1.js"></script>
-<script src="script.js"></script>
+<script>
+function openmobilenav() {
+  document.getElementById("mobilenav").style.width = "100%";
+}
+function closemobilenav() {
+  document.getElementById("mobilenav").style.width = "0";
+}
+</script>
 <link rel='shortcut icon' type='/x-icon' href='favicon.ico'>
 <link rel="stylesheet" href="stylesheet.css">
 </head>
@@ -17,7 +23,15 @@
 		<li id="fLeft"><a id="page" class="hover" href="javascript:void(0)">Music</a></li>
 		<li id="fLeft"><a class="hover" href="skills.html">Skills</a></li>
 		<li id="fLeft"><a class="hover" href="edu.html">Education</a></li>
+		<li id="float"><span onclick="openmobilenav()" id="nav">&equiv;</span></li>
 </nav>
+<div id="mobilenav" class="mobilenav">	
+		<a href="index.html">Home</a>
+		<a href="projects.html">Projects</a>
+		<a href="javascript:void(0)" onclick="closemobilenav()">Music</a>
+		<a href="skills.html">Skills</a>
+		<a href="edu.html">Education</a>
+</div>
 <div id="title">
 	<b>Benjamin B. Keil - Music</b>
 </div>
