@@ -1,0 +1,105 @@
+body {
+  display: block;
+  margin: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-color: #0E2124;
+  font-family: Arial;
+}
+nav {
+  list-style-type: none;
+  overflow: auto;
+	position: fixed;
+	width: 100%;
+	background: linear-gradient(to right, #0E2124 50%, #56D9E8 100%);
+	top: 0px;
+	animation-name: colors;
+	animation-duration: 4s;
+	animation-delay: 1s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;
+}
+#fLeft {
+  float: left;
+  font-size: 100%;
+}
+li .hover {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+.hover:hover {
+  background-color: #111111;
+}
+.hover {
+	background-color: none;
+}
+#page {
+  background-color: #56D9E8;
+}
+#text {
+	display: block;
+}
+#title {
+	margin: 5px;
+	padding: 10px;
+	padding-top: 54px;
+	background-color: white;
+	float: left;
+	overflow: auto;
+	border-radius: 5px;
+	font-size: 200%;
+	color: #327D86;
+	text-decoration: none;
+	font-family: Arial;
+}
+#content {
+	margin: 5px;
+	padding: 10px;
+	background-color: white;
+	float: right;
+	overflow: auto;
+	border-radius: 5px;
+	margin-top: 5px;
+	font-size: 110%;
+	color: #0E2124;
+	text-decoration: none;
+	font-family: Arial;
+}
+@keyframes colors {
+    0%    {background: linear-gradient(to right, #0E2124 50%, #56D9E8 100%);}
+	4%    {background: linear-gradient(to right, #0E2124 50%, #56D9E8 100%);}
+	8%    {background: linear-gradient(to right, #0E2124 50%, #5DCFE8 100%);}
+	12%   {background: linear-gradient(to right, #0E2124 50%, #64C6E9 100%);}
+	16%   {background: linear-gradient(to right, #0E2124 50%, #6BBDEA 100%);}
+	20%   {background: linear-gradient(to right, #0E2124 50%, #72B4EB 100%);}
+	24%   {background: linear-gradient(to right, #0E2124 50%, #79ABEC 100%);}
+	28%   {background: linear-gradient(to right, #0E2124 50%, #80A2ED 100%);}
+	32%   {background: linear-gradient(to right, #0E2124 50%, #8799EE 100%);}
+	36%   {background: linear-gradient(to right, #0E2124 50%, #8E90EF 100%);}
+	40%   {background: linear-gradient(to right, #0E2124 50%, #9587F0 100%);}
+	44%   {background: linear-gradient(to right, #0E2124 50%, #9C7EF1 100%);}
+	48%   {background: linear-gradient(to right, #0E2124 50%, #A375F2 100%);}
+	52%   {background: linear-gradient(to right, #0E2124 50%, #AA6CF3 100%);}
+	56%   {background: linear-gradient(to right, #0E2124 50%, #B163F4 100%);}
+	60%   {background: linear-gradient(to right, #0E2124 50%, #B85AF5 100%);}
+	64%   {background: linear-gradient(to right, #0E2124 50%, #BF51F6 100%);}
+	68%   {background: linear-gradient(to right, #0E2124 50%, #C648F7 100%);}
+	72%   {background: linear-gradient(to right, #0E2124 50%, #CD3FF8 100%);}
+	76%   {background: linear-gradient(to right, #0E2124 50%, #D436F9 100%);}
+	80%   {background: linear-gradient(to right, #0E2124 50%, #DB2DFA 100%);}
+	84%   {background: linear-gradient(to right, #0E2124 50%, #E224FB 100%);}
+	88%   {background: linear-gradient(to right, #0E2124 50%, #E91BFC 100%);}
+	92%	  {background: linear-gradient(to right, #0E2124 50%, #F012FD 100%);}
+	96%   {background: linear-gradient(to right, #0E2124 50%, #F709FE 100%);}
+	100%  {background: linear-gradient(to right, #0E2124 50%, #ff00ff 100%);}
+}
+#fullimage {
+	margin: auto%;
+	width: 99%;
+	margin-top: 46px;
+}
