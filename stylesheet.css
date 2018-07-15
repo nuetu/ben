@@ -21,6 +21,9 @@ nav {
 	animation-iteration-count: 2;
 	animation-direction: alternate;
 }
+audio { 
+	width: 99%;
+}
 #fLeft {
   float: left;
   font-size: 16px;
@@ -65,7 +68,7 @@ li .hover {
 	margin: 5px;
 	padding: 10px;
 	background-color: white;
-	float: right;
+	float: left;
 	overflow: auto;
 	border-radius: 5px;
 	margin-top: 5px;
